@@ -11,8 +11,7 @@ pip3 install -r requirements.txt
 ### Configure (top of `nonfollowers.py`)
 
 - Set either:
-  - **USERNAME** and **PASSWORD** (might hit challenges), or
-  - **SESSIONID**, **CSRFTOKEN**, **DS_USER_ID** (recommended)
+  - **USERNAME**, **PASSWORD**, **SESSIONID**, **CSRFTOKEN**, **DS_USER_ID** (recommended)
 - Optional: **SESSION_FILE** (save session settings) and **HTTP_PROXY** if your IP is blocked.
 
 ### How to get cookies (Chrome & Safari)
