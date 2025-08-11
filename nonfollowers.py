@@ -51,8 +51,8 @@ except Exception as exc:  # pragma: no cover - import guidance
 #   - Paste cookie values exactly as shown (sessionid may contain % characters)
 #   - If login is still blocked, try switching networks or set HTTP_PROXY below
 
-USERNAME: str = "_viral_doshi"
-PASSWORD: str = "Hotspot@19"
+USERNAME: str = "YOUR_USERNAME_HERE"
+PASSWORD: str = "YOUR_PASSWORD_HERE"
 
 # Optional: Set a path to persist session settings (reduces challenges between runs).
 # Example:
@@ -60,9 +60,9 @@ PASSWORD: str = "Hotspot@19"
 SESSION_FILE: Optional[str] = None
 
 # Browser cookies (recommended)
-SESSIONID: Optional[str] = "5044814313%3AQwRxOdmGIulNjB%3A0%3AAYdxrCeQzqJjejmJxdUOVuPXBjxngMW7yve4wGdjtA"
-CSRFTOKEN: Optional[str] = "rWHadAvza51mDx7BRFXv9i"
-DS_USER_ID: Optional[str] = "5044814313"
+SESSIONID: Optional[str] = "SESSIONID_HERE"
+CSRFTOKEN: Optional[str] = "CSRFTOKEN_HERE"
+DS_USER_ID: Optional[str] = "DS_USER_ID_HERE"
 
 # Optional: HTTP proxy to route requests (can help with IP blocks). Example:
 #   HTTP_PROXY = "http://user:pass@host:port"
